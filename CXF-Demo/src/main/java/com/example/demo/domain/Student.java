@@ -1,6 +1,9 @@
 package com.example.demo.domain;
 
-public class Student {
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class Student implements Serializable{
 
 	private Integer id;
 	private String name;
